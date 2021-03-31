@@ -1392,25 +1392,6 @@
           "bin/placeholder/Tournament.Domain.dll": {}
         }
       },
-      "Tournament.Infrasctructure.Data/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Design": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
-          "Tournament.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Tournament.Infrasctructure.Data.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Tournament.Infrasctructure.Data.dll": {}
-        }
-      },
       "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1425,17 +1406,23 @@
           "bin/placeholder/Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
         }
       },
-      "Tournament.Infrastructure.Repository/1.0.0": {
+      "Tournament.Infrastructure.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Tournament.Infrasctructure.Data": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
+          "Tournament.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Tournament.Infrastructure.Repository.dll": {}
+          "bin/placeholder/Tournament.Infrastructure.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Tournament.Infrastructure.Repository.dll": {}
+          "bin/placeholder/Tournament.Infrastructure.Data.dll": {}
         }
       }
     }
@@ -5265,20 +5252,15 @@
       "path": "../../Domain/Tournament.Domain/Tournament.Domain.csproj",
       "msbuildProject": "../../Domain/Tournament.Domain/Tournament.Domain.csproj"
     },
-    "Tournament.Infrasctructure.Data/1.0.0": {
-      "type": "project",
-      "path": "../../Infrastructure/Tournament.Infrasctructure.Data/Tournament.Infrasctructure.Data.csproj",
-      "msbuildProject": "../../Infrastructure/Tournament.Infrasctructure.Data/Tournament.Infrasctructure.Data.csproj"
-    },
     "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
       "type": "project",
       "path": "../../CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj",
       "msbuildProject": "../../CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj"
     },
-    "Tournament.Infrastructure.Repository/1.0.0": {
+    "Tournament.Infrastructure.Data/1.0.0": {
       "type": "project",
-      "path": "../../Infrastructure/Tournament.Infrastructure.Repository/Tournament.Infrastructure.Repository.csproj",
-      "msbuildProject": "../../Infrastructure/Tournament.Infrastructure.Repository/Tournament.Infrastructure.Repository.csproj"
+      "path": "../../Infrastructure/Tournament.Infrastructure.Data/Tournament.Infrastructure.Data.csproj",
+      "msbuildProject": "../../Infrastructure/Tournament.Infrastructure.Data/Tournament.Infrastructure.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5292,8 +5274,7 @@
       "Swashbuckle.AspNetCore >= 5.4.1",
       "Tournament.Application >= 1.0.0",
       "Tournament.Application.Commands >= 1.0.0",
-      "Tournament.Infrasctructure.Data >= 1.0.0",
-      "Tournament.Infrastructure.Repository >= 1.0.0"
+      "Tournament.Infrastructure.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5326,11 +5307,8 @@
             "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/Tournament.Application.csproj": {
               "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/Tournament.Application.csproj"
             },
-            "/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrasctructure.Data/Tournament.Infrasctructure.Data.csproj": {
-              "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrasctructure.Data/Tournament.Infrasctructure.Data.csproj"
-            },
-            "/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Repository/Tournament.Infrastructure.Repository.csproj": {
-              "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Repository/Tournament.Infrastructure.Repository.csproj"
+            "/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/Tournament.Infrastructure.Data.csproj": {
+              "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/Tournament.Infrastructure.Data.csproj"
             }
           }
         }
@@ -5391,7 +5369,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
       }
     }
   }

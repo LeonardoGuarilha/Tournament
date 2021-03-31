@@ -33,8 +33,7 @@
           "Swashbuckle.AspNetCore": "5.4.1",
           "Tournament.Application": "1.0.0",
           "Tournament.Application.Commands": "1.0.0",
-          "Tournament.Infrasctructure.Data": "1.0.0",
-          "Tournament.Infrastructure.Repository": "1.0.0",
+          "Tournament.Infrastructure.Data": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1314,23 +1313,6 @@
           "Tournament.Domain.dll": {}
         }
       },
-      "Tournament.Infrasctructure.Data/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Design": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.4",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
-          "Tournament.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Tournament.Infrasctructure.Data.dll": {}
-        },
-        "compile": {
-          "Tournament.Infrasctructure.Data.dll": {}
-        }
-      },
       "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
         "dependencies": {
           "Tournament.Application.Commands": "1.0.0",
@@ -1343,15 +1325,21 @@
           "Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
         }
       },
-      "Tournament.Infrastructure.Repository/1.0.0": {
+      "Tournament.Infrastructure.Data/1.0.0": {
         "dependencies": {
-          "Tournament.Infrasctructure.Data": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.4",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
+          "Tournament.Domain": "1.0.0"
         },
         "runtime": {
-          "Tournament.Infrastructure.Repository.dll": {}
+          "Tournament.Infrastructure.Data.dll": {}
         },
         "compile": {
-          "Tournament.Infrastructure.Repository.dll": {}
+          "Tournament.Infrastructure.Data.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3649,17 +3637,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Tournament.Infrasctructure.Data/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Tournament.Infrastructure.Repository/1.0.0": {
+    "Tournament.Infrastructure.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

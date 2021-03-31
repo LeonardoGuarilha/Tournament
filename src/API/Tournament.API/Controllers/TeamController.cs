@@ -23,12 +23,6 @@ namespace Tournament.API.Controllers
             return Ok(_applicationTeamService.GetAll());
         }
 
-        [HttpGet("GetCompleteTeam")]
-        public ActionResult<IEnumerable<TeamCommand>> GetCompleteTeam()
-        {
-            return Ok(_applicationTeamService.GetAll());
-        }
-
         [HttpGet("{id}")]
         public ActionResult<TeamCommand> Get(Guid id)
         {

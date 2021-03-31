@@ -17,8 +17,7 @@
     <ItemGroup>
       <ProjectReference Include="..\..\Application\Tournament.Application.Commands\Tournament.Application.Commands.csproj" />
       <ProjectReference Include="..\..\Application\Tournament.Application\Tournament.Application.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\Tournament.Infrasctructure.Data\Tournament.Infrasctructure.Data.csproj" />
-      <ProjectReference Include="..\..\Infrastructure\Tournament.Infrastructure.Repository\Tournament.Infrastructure.Repository.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\Tournament.Infrastructure.Data\Tournament.Infrastructure.Data.csproj" />
     </ItemGroup>
 
 

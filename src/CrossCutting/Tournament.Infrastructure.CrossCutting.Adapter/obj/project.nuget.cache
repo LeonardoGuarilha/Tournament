@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nrO9IvKKk9xN2b2IVhJ8DQRrDtPdmXH/i0FvBDiHbIRy7NDkW12unJOmpAH17D6L/9tzXwUX0LkDQAM0EY/uWA==",
+  "dgSpecHash": "MvNME+IgB6WPCsFpkRCHrsxEnppj90PbVdkxkAvdG926aeelIvMVMR/TelfiZFSZebWkuyYdRqDRVoYqywUupw==",
   "success": true,
   "projectFilePath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj",
   "expectedPackageFiles": [],

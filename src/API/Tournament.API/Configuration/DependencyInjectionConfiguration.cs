@@ -6,7 +6,7 @@ using Tournament.Domain.Interfaces.Services;
 using Tournament.Domain.Services;
 using Tournament.Infrastructure.CrossCutting.Adapter.Interfaces;
 using Tournament.Infrastructure.CrossCutting.Adapter.Map;
-using Tournament.Infrastructure.Repository.Repositories;
+using Tournament.Infrastructure.Data.Repositories;
 
 namespace Tournament.API.Configuration
 {

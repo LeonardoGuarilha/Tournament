@@ -22,9 +22,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Infrastructure.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Domain", "src\Domain\Tournament.Domain\Tournament.Domain.csproj", "{EA6042AC-5F58-4EE1-9A3C-B60FC8D21E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Infrasctructure.Data", "src\Infrastructure\Tournament.Infrasctructure.Data\Tournament.Infrasctructure.Data.csproj", "{D3ADDE40-FCCB-49DE-8267-8F419428AD64}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Infrastructure.Repository", "src\Infrastructure\Tournament.Infrastructure.Repository\Tournament.Infrastructure.Repository.csproj", "{E66A665D-B149-4A34-9F00-9E1DCCAF1277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Infrastructure.Data", "src\Infrastructure\Tournament.Infrastructure.Data\Tournament.Infrastructure.Data.csproj", "{D3ADDE40-FCCB-49DE-8267-8F419428AD64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,7 +41,6 @@ Global
 		{9E4BA265-EF9D-413F-A67B-85CFCBCDB0FA} = {FBA53FA7-B46C-401B-91B1-2A84D7AD46E0}
 		{EA6042AC-5F58-4EE1-9A3C-B60FC8D21E95} = {53E5E08C-4D49-408E-82B0-F624261946A4}
 		{D3ADDE40-FCCB-49DE-8267-8F419428AD64} = {AF55764B-C855-493D-96BC-EC530F973CD0}
-		{E66A665D-B149-4A34-9F00-9E1DCCAF1277} = {AF55764B-C855-493D-96BC-EC530F973CD0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5856994C-B32C-4536-8B9A-A7BEECFE1F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -70,9 +67,5 @@ Global
 		{D3ADDE40-FCCB-49DE-8267-8F419428AD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3ADDE40-FCCB-49DE-8267-8F419428AD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3ADDE40-FCCB-49DE-8267-8F419428AD64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E66A665D-B149-4A34-9F00-9E1DCCAF1277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E66A665D-B149-4A34-9F00-9E1DCCAF1277}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E66A665D-B149-4A34-9F00-9E1DCCAF1277}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E66A665D-B149-4A34-9F00-9E1DCCAF1277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
