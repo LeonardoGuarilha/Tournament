@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tournament.Application.Commands/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Tournament.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tournament.Application.Commands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tournament.Application.Commands.dll": {}
+        }
+      },
+      "Tournament.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Tournament.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tournament.Domain.dll": {}
+        }
+      },
+      "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Tournament.Application.Commands": "1.0.0",
+          "Tournament.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tournament.Application.Commands/1.0.0": {
+      "type": "project",
+      "path": "../Tournament.Application.Commands/Tournament.Application.Commands.csproj",
+      "msbuildProject": "../Tournament.Application.Commands/Tournament.Application.Commands.csproj"
+    },
+    "Tournament.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Tournament.Domain/Tournament.Domain.csproj",
+      "msbuildProject": "../../Domain/Tournament.Domain/Tournament.Domain.csproj"
+    },
+    "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../../CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj",
+      "msbuildProject": "../../CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Tournament.Application.Commands >= 1.0.0",
+      "Tournament.Infrastructure.CrossCutting.Adapter >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/leonardoguarilha/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/Tournament.Application.csproj",
+      "projectName": "Tournament.Application",
+      "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/Tournament.Application.csproj",
+      "packagesPath": "/Users/leonardoguarilha/.nuget/packages/",
+      "outputPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/leonardoguarilha/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/Tournament.Application.Commands.csproj": {
+              "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/Tournament.Application.Commands.csproj"
+            },
+            "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj": {
+              "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.405/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

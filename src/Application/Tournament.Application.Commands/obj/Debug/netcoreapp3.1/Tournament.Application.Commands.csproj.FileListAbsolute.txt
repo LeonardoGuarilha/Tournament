@@ -1,0 +1,12 @@
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.deps.json
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.csproj.CopyComplete
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/obj/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb

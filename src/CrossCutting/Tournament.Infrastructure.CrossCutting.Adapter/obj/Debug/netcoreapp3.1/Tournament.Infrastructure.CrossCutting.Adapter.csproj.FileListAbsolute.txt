@@ -1,0 +1,14 @@
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.deps.json
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.csproj.CopyComplete
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.pdb

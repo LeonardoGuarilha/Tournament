@@ -1,0 +1,16 @@
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.deps.json
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.csproj.CopyComplete
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.pdb

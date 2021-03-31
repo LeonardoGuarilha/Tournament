@@ -1,0 +1,9 @@
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/bin/Debug/netcoreapp3.1/Tournament.Domain.deps.json
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/obj/Debug/netcoreapp3.1/Tournament.Domain.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/obj/Debug/netcoreapp3.1/Tournament.Domain.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/obj/Debug/netcoreapp3.1/Tournament.Domain.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/obj/Debug/netcoreapp3.1/Tournament.Domain.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/obj/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Domain/Tournament.Domain/obj/Debug/netcoreapp3.1/Tournament.Domain.pdb

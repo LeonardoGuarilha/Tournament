@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\CrossCutting\Tournament.Infrastructure.CrossCutting.Adapter\Tournament.Infrastructure.CrossCutting.Adapter.csproj" />
+      <ProjectReference Include="..\Tournament.Application.Commands\Tournament.Application.Commands.csproj" />
+    </ItemGroup>
+
+</Project>
