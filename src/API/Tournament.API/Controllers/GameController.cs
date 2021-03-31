@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Tournament.Application.Commands.Commands;
 using Tournament.Application.Interface;
@@ -22,12 +21,6 @@ namespace Tournament.API.Controllers
         public ActionResult<IEnumerable<GameCommand>> GetAll()
         {
             return Ok(_applicationGameService.GetAll());
-        }
-        
-        [HttpGet("GetUnfinishedGames")]
-        public ActionResult<IEnumerable<GameCommand>> GetUnfinishedGames()
-        {
-            return Ok(_applicationGameService.GetAll().Where(x=> x.GameEnd == null));
         }
         
         [HttpGet("{id}")]

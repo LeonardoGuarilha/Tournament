@@ -25,14 +25,8 @@ namespace Tournament.Infrasctructure.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<DateTime?>("GameEnd")
+                    b.Property<DateTime?>("EndGameHour")
                         .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("GameStart")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("GuestScore")
-                        .HasColumnType("int");
 
                     b.Property<Guid>("GuestTeamId")
                         .HasColumnType("uniqueidentifier");
@@ -42,6 +36,12 @@ namespace Tournament.Infrasctructure.Data.Migrations
 
                     b.Property<Guid>("HomeTeamId")
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("StartGameHour")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("VisitoursScore")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

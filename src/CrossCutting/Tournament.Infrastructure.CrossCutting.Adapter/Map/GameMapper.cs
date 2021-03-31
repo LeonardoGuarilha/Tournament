@@ -12,10 +12,10 @@ namespace Tournament.Infrastructure.CrossCutting.Adapter.Map
             return new Game()
             {
                 Id = gameCommand.Id,
-                GameStart = gameCommand.GameStart,
-                GameEnd = gameCommand.GameEnd,
+                StartGameHour = gameCommand.StartGameHour,
+                EndGameHour = gameCommand.EndGameHour,
                 HomeScore = gameCommand.HomeScore,
-                GuestScore = gameCommand.GuestScore,
+                VisitoursScore = gameCommand.VisitoursScore,
                 GuestTeamId = gameCommand.GuestTeamId,
                 HomeTeamId = gameCommand.HomeTeamId
             };
@@ -34,10 +34,10 @@ namespace Tournament.Infrastructure.CrossCutting.Adapter.Map
             return new GameCommand()
             {
                 Id = game.Id,
-                GameStart = game.GameStart,
-                GameEnd = game.GameEnd,
+                StartGameHour = game.StartGameHour,
+                EndGameHour = game.EndGameHour,
                 HomeScore = game.HomeScore,
-                GuestScore = game.GuestScore,
+                VisitoursScore = game.VisitoursScore,
                 GuestTeamId = game.GuestTeamId,
                 HomeTeamId = game.HomeTeamId
             };
