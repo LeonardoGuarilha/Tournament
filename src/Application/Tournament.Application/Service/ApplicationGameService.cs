@@ -11,37 +11,37 @@ namespace Tournament.Application.Service
     {
         private readonly IGameService _gameService;
 
-        private readonly IGameMapper _gameMapper;
+        private readonly IGameMap _gameMap;
 
-        public ApplicationGameService(IGameService gameService, IGameMapper gameMapper)
+        public ApplicationGameService(IGameService gameService, IGameMap gameMap)
                                               
         {
             _gameService = gameService;
-            _gameMapper = gameMapper;
+            _gameMap = gameMap;
         }
         public void Remove(GameCommand obj)
         {
-            _gameService.Remove(_gameMapper.MapperToEntity(obj));
+            _gameService.Remove(_gameMap.MapToEntity(obj));
         }
 
         public IEnumerable<GameCommand> GetAll()
         {
-            return _gameMapper.MapperList(_gameService.GetAll());
+            return _gameMap.MapToList(_gameService.GetAll());
         }
 
         public GameCommand GetById(Guid id)
         {
-            return _gameMapper.MapperToCommand(_gameService.GetById(id));
+            return _gameMap.MapToCommand(_gameService.GetById(id));
         }
 
         public void Add(GameCommand obj)
         {
-            _gameService.Add(_gameMapper.MapperToEntity(obj));
+            _gameService.Add(_gameMap.MapToEntity(obj));
         }
 
         public void Update(GameCommand obj)
         {
-            _gameService.Update(_gameMapper.MapperToEntity(obj));
+            _gameService.Update(_gameMap.MapToEntity(obj));
         }
         
         public void Dispose()

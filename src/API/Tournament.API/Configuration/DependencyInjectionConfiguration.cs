@@ -18,9 +18,9 @@ namespace Tournament.API.Configuration
             services.AddScoped<IApplicationPlayerService, ApplicationPlayerService>();
             services.AddScoped<IApplicationTeamService, ApplicationTeamService>();
 
-            services.AddScoped<IGameMapper, GameMapper>();
-            services.AddScoped<IPlayerMapper, PlayerMapper>();
-            services.AddScoped<ITeamMapper, TeamMapper>();
+            services.AddScoped<IGameMap, GameMap>();
+            services.AddScoped<IPlayerMap, PlayerMap>();
+            services.AddScoped<ITeamMap, TeamMap>();
 
             services.AddScoped<ITeamService, TeamService>();
             services.AddScoped<IPlayerService, PlayerService>();

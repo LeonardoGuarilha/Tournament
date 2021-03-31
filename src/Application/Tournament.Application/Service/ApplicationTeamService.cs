@@ -11,37 +11,37 @@ namespace Tournament.Application.Service
     {
         private readonly ITeamService _teamService;
 
-        private readonly ITeamMapper _teamMapper;
+        private readonly ITeamMap _teamMap;
 
-        public ApplicationTeamService(ITeamService teamService, ITeamMapper teamMapper)
+        public ApplicationTeamService(ITeamService teamService, ITeamMap teamMap)
         {
             _teamService = teamService;
-            _teamMapper = teamMapper;
+            _teamMap = teamMap;
         }
 
         public void Remove(TeamCommand obj)
         {
-            _teamService.Remove(_teamMapper.MapperToEntity(obj));
+            _teamService.Remove(_teamMap.MapToEntity(obj));
         }
 
         public IEnumerable<TeamCommand> GetAll()
         {
-            return _teamMapper.MapperList(_teamService.GetAll());
+            return _teamMap.MapToList(_teamService.GetAll());
         }
 
         public TeamCommand GetById(Guid id)
         {
-            return _teamMapper.MapperToCommand(_teamService.GetById(id));
+            return _teamMap.MapToCommand(_teamService.GetById(id));
         }
 
         public void Add(TeamCommand obj)
         {
-            _teamService.Add(_teamMapper.MapperToEntity(obj));
+            _teamService.Add(_teamMap.MapToEntity(obj));
         }
 
         public void Update(TeamCommand obj)
         {
-            _teamService.Update(_teamMapper.MapperToEntity(obj));
+            _teamService.Update(_teamMap.MapToEntity(obj));
         }
 
         public void Dispose()

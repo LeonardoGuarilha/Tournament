@@ -12,27 +12,27 @@ namespace Tournament.Application.Service
     {
         private readonly IPlayerService _playerService;
 
-        private readonly IPlayerMapper _playerMapper;
+        private readonly IPlayerMap _playerMap;
 
-        public ApplicationPlayerService(IPlayerService playerService, IPlayerMapper playerMapper)
+        public ApplicationPlayerService(IPlayerService playerService, IPlayerMap playerMap)
         {
             _playerService = playerService;
-            _playerMapper = playerMapper;
+            _playerMap = playerMap;
         }
 
         public void Remove(PlayerCommand obj)
         {
-            _playerService.Remove(_playerMapper.MapperToEntity(obj));
+            _playerService.Remove(_playerMap.MapToEntity(obj));
         }
 
         public IEnumerable<PlayerCommand> GetAll()
         {
-            return _playerMapper.MapperList(_playerService.GetAll());
+            return _playerMap.MapToList(_playerService.GetAll());
         }
 
         public PlayerCommand GetById(Guid id)
         {
-            return _playerMapper.MapperToCommand(_playerService.GetById(id));
+            return _playerMap.MapToCommand(_playerService.GetById(id));
         }
 
         public void Add(PlayerCommand obj)
@@ -41,7 +41,7 @@ namespace Tournament.Application.Service
             {
                 TeamCompletedException(obj);
 
-                _playerService.Add(_playerMapper.MapperToEntity(obj));
+                _playerService.Add(_playerMap.MapToEntity(obj));
             }
             catch (System.Exception ex)
             {
@@ -53,7 +53,7 @@ namespace Tournament.Application.Service
         {
             TeamCompletedException(obj);
 
-            _playerService.Update(_playerMapper.MapperToEntity(obj));
+            _playerService.Update(_playerMap.MapToEntity(obj));
         }
 
         public void Dispose()

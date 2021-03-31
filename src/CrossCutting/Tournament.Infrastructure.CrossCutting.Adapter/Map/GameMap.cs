@@ -5,9 +5,9 @@ using Tournament.Infrastructure.CrossCutting.Adapter.Interfaces;
 
 namespace Tournament.Infrastructure.CrossCutting.Adapter.Map
 {
-    public class GameMapper : IGameMapper
+    public class GameMap : IGameMap
     {
-        public Game MapperToEntity(GameCommand gameCommand)
+        public Game MapToEntity(GameCommand gameCommand)
         {
             return new Game()
             {
@@ -21,15 +21,15 @@ namespace Tournament.Infrastructure.CrossCutting.Adapter.Map
             };
         }
 
-        public IEnumerable<GameCommand> MapperList(IEnumerable<Game> games)
+        public IEnumerable<GameCommand> MapToList(IEnumerable<Game> games)
         {
             foreach (var game in games)
             {
-                yield return MapperToCommand(game);
+                yield return MapToCommand(game);
             }
         }
 
-        public GameCommand MapperToCommand(Game game)
+        public GameCommand MapToCommand(Game game)
         {
             return new GameCommand()
             {

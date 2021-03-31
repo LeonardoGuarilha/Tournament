@@ -6,9 +6,9 @@ using Tournament.Infrastructure.CrossCutting.Adapter.Interfaces;
 
 namespace Tournament.Infrastructure.CrossCutting.Adapter.Map
 {
-    public class PlayerMapper : IPlayerMapper
+    public class PlayerMap : IPlayerMap
     {
-        public Player MapperToEntity(PlayerCommand playerCommand)
+        public Player MapToEntity(PlayerCommand playerCommand)
         {
             return new Player()
             {
@@ -18,15 +18,15 @@ namespace Tournament.Infrastructure.CrossCutting.Adapter.Map
             };
         }
 
-        public IEnumerable<PlayerCommand> MapperList(IEnumerable<Player> players)
+        public IEnumerable<PlayerCommand> MapToList(IEnumerable<Player> players)
         {
             foreach (var player in players)
             {
-                yield return MapperToCommand(player);
+                yield return MapToCommand(player);
             }
         }
 
-        public PlayerCommand MapperToCommand(Player player)
+        public PlayerCommand MapToCommand(Player player)
         {
             return new PlayerCommand()
             {
