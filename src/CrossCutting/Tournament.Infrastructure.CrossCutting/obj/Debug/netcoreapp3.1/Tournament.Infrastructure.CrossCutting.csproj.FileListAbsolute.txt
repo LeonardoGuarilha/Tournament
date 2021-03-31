@@ -1,0 +1,14 @@
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.deps.json
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.csproj.CopyComplete
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.pdb

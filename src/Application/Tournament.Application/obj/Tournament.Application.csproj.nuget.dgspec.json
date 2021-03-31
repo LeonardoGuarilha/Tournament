@@ -82,8 +82,8 @@
               "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/Tournament.Application.Commands.csproj": {
                 "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application.Commands/Tournament.Application.Commands.csproj"
               },
-              "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj": {
-                "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj"
+              "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj": {
+                "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj"
               }
             }
           }
@@ -115,14 +115,14 @@
         }
       }
     },
-    "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj": {
+    "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj",
-        "projectName": "Tournament.Infrastructure.CrossCutting.Adapter",
-        "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj",
+        "projectUniqueName": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj",
+        "projectName": "Tournament.Infrastructure.CrossCutting",
+        "projectPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj",
         "packagesPath": "/Users/leonardoguarilha/.nuget/packages/",
-        "outputPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/obj/",
+        "outputPath": "/Users/leonardoguarilha/Desktop/Tournament/src/CrossCutting/Tournament.Infrastructure.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leonardoguarilha/.nuget/NuGet/NuGet.Config"

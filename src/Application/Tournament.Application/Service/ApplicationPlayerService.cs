@@ -4,7 +4,7 @@ using System.Linq;
 using Tournament.Application.Commands.Commands;
 using Tournament.Application.Interface;
 using Tournament.Domain.Interfaces.Services;
-using Tournament.Infrastructure.CrossCutting.Adapter.Interfaces;
+using Tournament.Infrastructure.CrossCutting.Interfaces;
 
 namespace Tournament.Application.Service
 {

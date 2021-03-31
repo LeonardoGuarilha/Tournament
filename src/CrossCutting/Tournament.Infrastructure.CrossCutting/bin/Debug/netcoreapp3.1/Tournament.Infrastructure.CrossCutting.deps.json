@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tournament.Infrastructure.CrossCutting/1.0.0": {
+        "dependencies": {
+          "Tournament.Application.Commands": "1.0.0",
+          "Tournament.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Tournament.Infrastructure.CrossCutting.dll": {}
+        }
+      },
+      "Tournament.Application.Commands/1.0.0": {
+        "dependencies": {
+          "Tournament.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Tournament.Application.Commands.dll": {}
+        }
+      },
+      "Tournament.Domain/1.0.0": {
+        "runtime": {
+          "Tournament.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tournament.Infrastructure.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tournament.Application.Commands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tournament.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

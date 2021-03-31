@@ -9,7 +9,7 @@
       "Tournament.Application/1.0.0": {
         "dependencies": {
           "Tournament.Application.Commands": "1.0.0",
-          "Tournament.Infrastructure.CrossCutting.Adapter": "1.0.0"
+          "Tournament.Infrastructure.CrossCutting": "1.0.0"
         },
         "runtime": {
           "Tournament.Application.dll": {}
@@ -28,13 +28,13 @@
           "Tournament.Domain.dll": {}
         }
       },
-      "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
+      "Tournament.Infrastructure.CrossCutting/1.0.0": {
         "dependencies": {
           "Tournament.Application.Commands": "1.0.0",
           "Tournament.Domain": "1.0.0"
         },
         "runtime": {
-          "Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
+          "Tournament.Infrastructure.CrossCutting.dll": {}
         }
       }
     }
@@ -55,7 +55,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
+    "Tournament.Infrastructure.CrossCutting/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

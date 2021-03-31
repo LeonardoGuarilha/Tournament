@@ -1,0 +1,15 @@
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.deps.json
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.runtimeconfig.json
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.runtimeconfig.dev.json
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.csprojAssemblyReference.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.AssemblyInfoInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.AssemblyInfo.cs
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.csproj.CoreCompileInputs.cache
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.csproj.CopyComplete
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Infrastructure/Tournament.Infrastructure.Data/obj/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.genruntimeconfig.cache

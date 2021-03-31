@@ -46,13 +46,13 @@
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Application.dll
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
-/Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.dll
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.dll
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Application.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.Data.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
-/Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/obj/Debug/netcoreapp3.1/Tournament.API.csprojAssemblyReference.cache
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/obj/Debug/netcoreapp3.1/Tournament.API.AssemblyInfoInputs.cache
 /Users/leonardoguarilha/Desktop/Tournament/src/API/Tournament.API/obj/Debug/netcoreapp3.1/Tournament.API.AssemblyInfo.cs

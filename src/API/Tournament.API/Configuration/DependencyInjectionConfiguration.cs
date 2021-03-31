@@ -4,8 +4,8 @@ using Tournament.Application.Service;
 using Tournament.Domain.Interfaces.Repositories;
 using Tournament.Domain.Interfaces.Services;
 using Tournament.Domain.Services;
-using Tournament.Infrastructure.CrossCutting.Adapter.Interfaces;
-using Tournament.Infrastructure.CrossCutting.Adapter.Map;
+using Tournament.Infrastructure.CrossCutting.Interfaces;
+using Tournament.Infrastructure.CrossCutting.Map;
 using Tournament.Infrastructure.Data.Repositories;
 
 namespace Tournament.API.Configuration

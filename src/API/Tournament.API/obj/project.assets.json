@@ -1360,7 +1360,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Tournament.Application.Commands": "1.0.0",
-          "Tournament.Infrastructure.CrossCutting.Adapter": "1.0.0"
+          "Tournament.Infrastructure.CrossCutting": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Tournament.Application.dll": {}
@@ -1392,7 +1392,7 @@
           "bin/placeholder/Tournament.Domain.dll": {}
         }
       },
-      "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
+      "Tournament.Infrastructure.CrossCutting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1400,10 +1400,10 @@
           "Tournament.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
+          "bin/placeholder/Tournament.Infrastructure.CrossCutting.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Tournament.Infrastructure.CrossCutting.Adapter.dll": {}
+          "bin/placeholder/Tournament.Infrastructure.CrossCutting.dll": {}
         }
       },
       "Tournament.Infrastructure.Data/1.0.0": {
@@ -5252,10 +5252,10 @@
       "path": "../../Domain/Tournament.Domain/Tournament.Domain.csproj",
       "msbuildProject": "../../Domain/Tournament.Domain/Tournament.Domain.csproj"
     },
-    "Tournament.Infrastructure.CrossCutting.Adapter/1.0.0": {
+    "Tournament.Infrastructure.CrossCutting/1.0.0": {
       "type": "project",
-      "path": "../../CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj",
-      "msbuildProject": "../../CrossCutting/Tournament.Infrastructure.CrossCutting.Adapter/Tournament.Infrastructure.CrossCutting.Adapter.csproj"
+      "path": "../../CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj",
+      "msbuildProject": "../../CrossCutting/Tournament.Infrastructure.CrossCutting/Tournament.Infrastructure.CrossCutting.csproj"
     },
     "Tournament.Infrastructure.Data/1.0.0": {
       "type": "project",

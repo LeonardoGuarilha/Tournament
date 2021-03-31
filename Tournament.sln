@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Application", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Application.Commands", "src\Application\Tournament.Application.Commands\Tournament.Application.Commands.csproj", "{DDBB8EB7-E370-4573-A2A3-4C0751B8CBDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Infrastructure.CrossCutting.Adapter", "src\CrossCutting\Tournament.Infrastructure.CrossCutting.Adapter\Tournament.Infrastructure.CrossCutting.Adapter.csproj", "{9E4BA265-EF9D-413F-A67B-85CFCBCDB0FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Infrastructure.CrossCutting", "src\CrossCutting\Tournament.Infrastructure.CrossCutting\Tournament.Infrastructure.CrossCutting.csproj", "{9E4BA265-EF9D-413F-A67B-85CFCBCDB0FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournament.Domain", "src\Domain\Tournament.Domain\Tournament.Domain.csproj", "{EA6042AC-5F58-4EE1-9A3C-B60FC8D21E95}"
 EndProject

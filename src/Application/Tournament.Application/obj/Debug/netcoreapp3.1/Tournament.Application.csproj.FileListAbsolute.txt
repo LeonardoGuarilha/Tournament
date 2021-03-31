@@ -3,8 +3,8 @@
 /Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.dll
 /Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Domain.dll
-/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.dll
-/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.Adapter.pdb
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.dll
+/Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Infrastructure.CrossCutting.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Application.Commands.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/bin/Debug/netcoreapp3.1/Tournament.Domain.pdb
 /Users/leonardoguarilha/Desktop/Tournament/src/Application/Tournament.Application/obj/Debug/netcoreapp3.1/Tournament.Application.csprojAssemblyReference.cache
